@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box shadow and text shadow</title>
+    <style>
+        .container {
+            display: flex;
+        }
+
+        .card {
+            padding: 23px 12px;
+            margin: 23px 12px;
+            /* border: 2px solid red; */
+            background-color: skyblue;
+
+            /* box-shadow:  offset-x  offset-y color; */
+            /* upper side*/
+            box-shadow: -10px -13px green;
+            /* downward side */
+            box-shadow: 2px 3px green;
+
+            /* box-shadow:  offset-x  offset-y blur-radius color; */
+            box-shadow: 7px 5px 10px green;
+
+
+            /* box-shadow:  offset-x  offset-y blur-radius sperad-radius color; */
+            box-shadow: 7px 5px 10px 34px rgba(207, 189, 23, 0.899);
+
+            box-shadow: inset 3px 5px green, 4px 6px red;
+
+
+        }
+        .card h2{
+            text-shadow: 2px 2px 2px white;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="card" id="card1">
+            <h2>This is javascript course</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit incidunt blanditiis nostrum sit
+                officiis eum culpa molestias autem quae odio odit dicta soluta, illum in ad provident rem et illo
+                consequatur consequuntur labore. Nemo.</p>
+        </div>
+        <div class="card" id="card2">
+            <h2>This is html course</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit incidunt blanditiis nostrum sit
+                officiis eum culpa molestias autem quae odio odit dicta soluta, illum in ad provident rem et illo
+                consequatur consequuntur labore. Nemo.</p>
+        </div>
+        <div class="card" id="card3">
+            <h2>This is css course</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit incidunt blanditiis nostrum sit
+                officiis eum culpa molestias autem quae odio odit dicta soluta, illum in ad provident rem et illo
+                consequatur consequuntur labore. Nemo.</p>
+        </div>
+    </div>
+</body>
+
+</html>
