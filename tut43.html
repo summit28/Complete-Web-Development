@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Math Object In JavaScript</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>This is math obj tutorial</h1>
+    </div>
+    <script>
+        //Printing the math obj
+        let m = Math;
+        console.log(m);
+        //Printing the constants form math obj
+        console.log("the value of Math.E. is", Math.E)
+        console.log("the value of Math.PI. is", Math.PI)
+
+        //Printing the function form math obj
+        let a = 34.6434;
+        let b = 89;
+
+        console.log("The value of a and b is", a, b);
+        console.log("The value of a and b  rounded is", Math.round(a), Math.round(b));
+
+        console.log("2 raised to the power of 2 is", Math.pow(2, 2));
+
+        console.log("Square root of 36 is", Math.sqrt(36));
+
+        // Ceill and floor
+        console.log("5.8 rounded up to nearest integer", Math.ceil(5.8));
+        console.log("5.8 rounded down to nearest integer", Math.floor(5.8));
+
+        //absoulte function
+        console.log("absoulte value of 5.66 is ", Math.abs(5.66));
+        console.log("absoulte value of -5.66 is ", Math.abs(-5.66));
+
+        // Trinometric function
+        console.log("the value of sin(pi) is ", Math.sin(Math.PI / 2));
+        console.log("the value of sin(pi) is ", Math.cos(Math.PI / 2));
+        console.log("the value of sin(pi) is ", Math.tan(Math.PI / 2));
+
+        // Min and max functions
+        console.log("Minimum value of 4, 5, 6 is ", Math.min(4, 5, 6));
+        console.log("Minimum value of 14, 5, 16 is ", Math.min(14, 5, 16));
+        console.log("Maximum value of 4, 5, 6 is ", Math.max(4, 5, 6));
+        console.log("Maximum value of 14, 5, 16 is ", Math.max(14, 5, 16));
+
+        // Generating a random number
+        let r = Math.random();
+        // Random number b/w (a, b) = a + (b-a)*Math.random()
+        let a1 = 50;
+        let b1 = 60;
+        let r50_60 = a1 + (b1 - a1) * Math.random();
+        console.log("The random number is ", r)
+        console.log("The random number is ", r50_60)
+
+
+
+    </script>
+</body>
+
+</html>

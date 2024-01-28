@@ -1,0 +1,17 @@
+{
+  "name": "tut51",
+  "version": "1.0.0",
+  "description": "this is tut51",
+  "main": "tut51.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "awesome"
+  ],
+  "author": "peter",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  }
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Working with JSON in JavaScript</title>
+</head>
+
+<body>
+    <h1>This is json Tutorial</h1>
+    <!-- josn is data format -->
+    <script>
+        let jsonobj = {
+            name: "max",
+            channel: "maxxi",
+            friend: "gewen",
+            food: "paneer"
+        }
+        //conveting js into  json string
+        console.log(jsonobj);
+        let myjonStr = JSON.stringify(jsonobj); //stringify is function,converts a JavaScript value to a JSON string
+        console.log(myjonStr);
+        // replace
+        myjonStr = myjonStr.replace("max", "peter");
+        console.log(myjonStr);
+        //converting stirng into obj
+        newjsonobj = JSON.parse(myjonStr);
+        console.log(newjsonobj);
+    </script>
+</body>
+
+</html>
